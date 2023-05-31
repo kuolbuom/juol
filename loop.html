@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="loop"></p>
+    <p id="loopnow"></p>
+    <p id="html"></p>
+    <p id="tet"></p>
+    <p id="cost"></p>
+    <p id="loopin"></p>
+    <p id="yes"></p>
+    <p id="loopof"></p>
+    <p id="loop1"></p>
+    <p id="while"></p>
+
+    <script>
+// const cars =['volvo','toyota','mercidis','farado','v8','bmw','ford','benson'];
+// let Text =''
+
+// for(let i =0; i < cars.length; i++){
+//     Text += cars[i]+ ' <br>' 
+// }
+// document.getElementById('loop').innerHTML=Text
+
+//  let Text= '';
+// for(let i =0; i <10; i++){
+//     Text+= 'the number is ' + i + ' <br>';
+// }
+// document.getElementById('loopnow').innerHTML=Text
+
+
+
+// instead
+
+// const cars =['volvo','toyota','mercidis','farado','v8','bmw','ford','benson'];
+// let Text =''
+// Text+= cars[0]+' ';
+// Text+= cars[1]+' ';
+
+// for(let i =0; i <cars.length; i++){
+//     Text += cars[i] +  ' <br>';
+// }
+// document.getElementById('loop').innerHTML=Text
+
+// let Text ='';
+// for(let i =0; i<100; i++){
+//     Text += "the result is " + i + "<br>";
+// }
+// document.getElementById('html').innerHTML=Text
+//  let Text ='';
+// for(let i =0; i< 150; i++){
+//     Text += i + '<br>'
+// }
+// document.getElementById('tet').innerHTML=Text
+
+// let num = + '12' + 12
+// let num2 = + '14' + 14
+// if(num===num2){
+//     console.log('they are equal')
+// }else{
+//     console.log('they are not equal')
+// }
+//document.getElementById('cost').innerHTML=num2
+
+// const person ={
+//     fname: 'omar',
+//     middleName:'Adam',
+//     lastName:'Osman',
+//     age: 33,
+//     Address: 'Kakuma',
+//     country:'Kenya',
+//     status:'married'
+// }
+// let Text ='';
+// for(let x in person){
+//     Text+=person[x]+' '; 
+// }document.getElementById('loopin').innerHTML=Text
+
+// const numbers= ['40','45','50','55','60','80','90'];
+// let Text ='';
+// for(let x in numbers){
+//     Text+=numbers[x]+'<br> ';
+// }
+// document.getElementById('yes').innerHTML=Text
+
+//for of loop
+
+// let language ='javascript'
+// let Text= '';
+// for(let x of language){
+//     Text +=x;
+// }
+// document.getElementById('loopof').innerHTML=Text
+
+// const cars =['volvo','toyota','bmw','marcidis','hamor']
+// let Text ='';
+// for(let x of cars){
+//     Text +=cars +' <br>'
+// }
+// document.getElementById('loop1').innerHTML=Text
+
+//for while loop
+
+const cars =['bmw','toyota','marcidis','volvo','saba']
+let i= 0;
+let Text ='';
+
+while(cars[i]){
+    Text += cars [i] +'<br> ' + i++;
+}
+
+document.getElementById('while').innerHTML=Text
+
+
+    </script>
+    
+</body>
+</html>

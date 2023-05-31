@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="document.getElementById('demo').innerHTML=Date()">the time is?</button><br>
+    <button onclick="this.innerHTML=Date()">time is</button><br>
+    <button onclick="DisplayDate()">the time is now</button><br>
+    <button onmouseout="document.getElementById('onmous').innerHTML=Date()">time</button><br>
+    <button onmouseover="document.getElementById('onmousover').innerHTML=Date()">show time</button><br>
+    <button onload="document.getElementById('onload').innerHTML=Date()">create time</button>
+    
+    <p id="demo"></p>
+    <p id="mytime"></p>
+    <p id="onmous"></p>
+    <p id="onmousover"></p>
+    <p id="onload"></p>
+
+
+
+   <script>
+    function DisplayDate() {
+        document.getElementById('mytime').innerHTML=Date()
+    }
+   </script>
+</body>
+</html>

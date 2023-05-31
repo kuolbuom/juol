@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="boolean.js">
+</head>
+<body>
+    <p id="demo3"></p>
+    <p id="demo5"></p>
+    <p id="demo4"></p>
+    <p id="switch"></p><br>
+    <p id="switch1"></p>
+    <!-- <h1 id="count-el">0</h1> -->
+    <!-- <button id="increment" onclick="increment()">increment</button> -->
+
+
+    <script>
+        let X = false;
+        let y = new Boolean(false);
+        const z =new Boolean(true);
+        const e =new Boolean(true)
+
+        document.getElementById('demo3').innerHTML=Boolean(10===10)
+        document.getElementById('demo5').innerHTML=typeof x  +' <br>' + typeof y;
+        document.getElementById('demo4').innerHTML=z==e;
+
+        let day;
+        switch(new Date().getDay()){
+            case 0: day ='sunday'; break;
+            case 1: day ='monday';  break;
+            case 2: day ='tueday';  break;
+            case 3: day ='wednesday';break;
+            case 4: day = 'thursday'; break;
+            case 5: day ='friday';   break;
+            case 6: day ='sutarday'; break;
+        }
+        document.getElementById('switch').innerHTML ='Today is '+ day
+
+        let month;
+        switch(new Date().getMonths()){
+            case 0: month ='juanuary'; break;
+            case 1: month ='fabuary'; break;
+            case 2: month ='march'; break;
+            case 3: month ='afril'; break;
+            case 4: month ='may'; break;
+            case 5: month ='june'; break;
+            case 6: month ='july'; break;
+            case 7: month ='august'; break;
+            case 8: month ='september'; break;
+            case 9: month ='october'; break;
+            case 10: month ='november'; break;
+            case 11: month ='december'; break;
+}
+        document.getElementById('switch1').innerHTML ='month is ' + month
+
+
+    </script>
+   
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo6"></p>
+    <p id="demo7"> </p>
+    
+    <script>
+        const Time = new Date().getHours();
+        let greeting;
+        if (Time < 20) {greeting='good Morning';
+        }
+        else if (Time>=10) {greeting='good afternoon';}
+        else{ greeting = 'good evening';}
+         console.log(greeting)
+
+        document.getElementById('demo6').innerHTML=greeting
+        
+        const hour =new Date().getHours();
+
+        let message;
+        if(hour>18) {message='good day'}
+        else{message ='good afternoon'}
+        console.log(message)
+        document.getElementById('demo7').innerHTML =message
+
+
+
+       
+        
+    </script>
+</body>
+</html>
